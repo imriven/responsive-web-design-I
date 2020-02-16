@@ -83,11 +83,11 @@ body {
     margin: 5% 10%;
 }
 
-@media (max-width: 800px) {
-    body {
-        margin: 10% 20%;
+    @media (max-width: 800px) {
+        body {
+            margin: 10% 20%;
+        }
     }
-  }
 
 /* navigation */
 nav {
@@ -99,24 +99,30 @@ nav {
     
 
     @media (max-width: 800px) {
-    nav {
-        display: flex;
-        flex-wrap: wrap-reverse;
-        
+        nav {
+            display: flex;
+            flex-wrap: wrap-reverse;
+        }
     }
-  }
 
     @media (max-width: 500px) {
-    nav {
-        display: flex;
-        flex-wrap: wrap-reverse;
-        margin-top: 10%;
+        nav {
+            display: flex;
+            flex-wrap: wrap-reverse;
+            margin-top: 10%;
+        }
     }
-  }
 
 .nav-logo {
 	padding-left: 10%;
 }
+    
+    @media (max-width: 800px) {
+        .nav-logo {
+            padding-bottom: 3%;
+        }
+    }
+
     @media (max-width: 500px) {
         .nav-logo {
             display: flex;
@@ -131,13 +137,13 @@ a {
 	text-decoration: none;
     color: gray;    
 }
+
     @media (max-width: 500px) {
         a {
             border-bottom: 1px solid black;
             padding: 5% 10%;
             width: 100%;
             text-align: center;
-            
         }
     }
 
@@ -155,13 +161,12 @@ h3 {
 	justify-content: space-between;
 	flex-grow: .7;
 }
+
     @media (max-width: 500px) {
         .links {
             display: flex;
             flex-direction: column;
             width: 100%;
-            
-         
         }
     }
 
@@ -182,37 +187,41 @@ footer {
     padding-bottom: 5%;
     flex-direction: row;
     justify-content: center;
-    
-   
 }
 
 .intro-right {
     flex-grow: .2;
     display: flex;
     flex-direction: column;
-
 }
 
 .circle-img {
     padding-left: 20%;    
 }
     @media (max-width: 800px) {
-    .circle-img  {
-      display: none;
+        .circle-img  {
+            display: none;
+        }
     }
-  }
 
     @media (max-width: 500px) {
-    .circle-img  {
-      display: none;
+        .circle-img  {
+            display: none;
+        }
     }
-  }
 
 #intro h1{
     font-size: 5em;
     text-align: center;
     padding-top:12%;
 }
+
+    @media (max-width: 800px) {
+        #intro h1{
+            font-size: 2.5em;
+        }
+    }
+
 
 #intro button {
 
@@ -224,12 +233,12 @@ footer {
 }
 
     @media (max-width: 800px) {
-    #intro button {
-        padding: 1% 7%;
-        display: flex;
-        flex-wrap: nowrap;
-        justify-content: center;
-    }
+        #intro button {
+            padding: 1% 7%;
+            display: flex;
+            flex-wrap: nowrap;
+            justify-content: center;
+        }
   }
 
 
@@ -249,12 +258,39 @@ footer {
     border-top: 1px solid;
 }
 
+    @media (max-width: 500px) {
+        .middle-top {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+        }
+    }
+
 .features-para {
     width: 49%;
 }
+
+    @media (max-width: 500px) {
+        .features-para {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            padding: 3% 0;
+        }
+    }
+
 .about-para {
     width: 49%;
 }
+
+    @media (max-width: 500px) {
+        .about-para {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            padding: 3% 0;
+        }
+    }
 
 img.middle-img {
     object-fit: fill;
@@ -269,15 +305,52 @@ img.middle-img {
     margin-bottom: 2%;
 }
 
+    @media (max-width: 500px) {
+        .middle-bottom {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+        }
+    }
+
 .services-para {
     width: 30%;
 }
+
+    @media (max-width: 500px) {
+        .services-para {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            padding: 3% 0;
+        }
+    }
+
 .product-para {
     width: 30%;
 }
+
+    @media (max-width: 500px) {
+        .product-para {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            padding: 3% 0;
+        }
+    }
+
 .vision-para {
     width: 30%;
 }
+
+    @media (max-width: 500px) {
+        .vision-para {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            padding: 3% 0;
+        }
+    }
 
 
 
