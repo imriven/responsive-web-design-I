@@ -83,31 +83,60 @@ body {
     margin: 5% 10%;
 }
 
+@media (max-width: 800px) {
+    body {
+        margin: 10% 20%;
+    }
+  }
+
 /* navigation */
 nav {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-
-	padding: .5%;
-    
-    overflow: hidden;
-    background-color: slateblue;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1;
-    left: 0%;
-
+    padding: .5%
 }
+    
+
+    @media (max-width: 800px) {
+    nav {
+        display: flex;
+        flex-wrap: wrap-reverse;
+        
+    }
+  }
+
+    @media (max-width: 500px) {
+    nav {
+        display: flex;
+        flex-wrap: wrap-reverse;
+        margin-top: 10%;
+    }
+  }
+
 .nav-logo {
 	padding-left: 10%;
 }
+    @media (max-width: 500px) {
+        .nav-logo {
+            border-bottom: 1px solid black;
+        }
+    }
 
 a {
 	text-decoration: none;
-    color: white;
+    color: gray;    
 }
+    @media (max-width: 500px) {
+        a {
+            border-bottom: 1px solid black;
+            padding: 5% 10%;
+            width: 100%;
+            text-align: center;
+            
+        }
+    }
+
 
 h2 {
     font-size: x-large;
@@ -122,6 +151,15 @@ h3 {
 	justify-content: space-between;
 	flex-grow: .7;
 }
+    @media (max-width: 500px) {
+        .links {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            
+         
+        }
+    }
 
 /* footer */
 
@@ -152,9 +190,19 @@ footer {
 }
 
 .circle-img {
-    padding-left: 20%;
-    
+    padding-left: 20%;    
 }
+    @media (max-width: 800px) {
+    .circle-img  {
+      display: none;
+    }
+  }
+
+    @media (max-width: 500px) {
+    .circle-img  {
+      display: none;
+    }
+  }
 
 #intro h1{
     font-size: 5em;
@@ -171,8 +219,19 @@ footer {
     text-align: center;
 }
 
+    @media (max-width: 800px) {
+    #intro button {
+        padding: 1% 7%;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+  }
+
+
 .button {
     display: flex;
+    flex-wrap: nowrap;
     justify-content: center;
 }
 
