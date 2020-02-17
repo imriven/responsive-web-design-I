@@ -373,6 +373,12 @@ img.middle-img {
     margin-bottom: 3%;
 }
 
+    @media (max-width: 800px) {
+        .services-header-img {
+            margin-top: 40px;
+        }
+    }
+
 #servics p {
     text-align: justify;
 }
@@ -399,6 +405,12 @@ img.middle-img {
     margin-bottom: 3%;
 }
 
+    @media (max-width: 500px) {
+        .digital-design {
+            width: 100%;
+        }
+    }
+
 .ux-ui {
     display: flex;
     background-color: lightgray;
@@ -410,6 +422,13 @@ img.middle-img {
     margin-bottom: 3%;
 }
 
+    @media (max-width: 500px) {
+        .ux-ui {
+            width: 100%;
+        }
+    }
+
+
 .digital-marketing {
     display: flex;
     background-color: lightgray;
@@ -420,6 +439,14 @@ img.middle-img {
     padding: 3%;
     margin-bottom: 3%;
 }
+
+    @media (max-width: 500px) {
+        .digital-marketing {
+            width: 100%;
+        }
+    }
+
+
 .web-dev {
     display: flex;
     background-color: lightgray;
@@ -430,6 +457,13 @@ img.middle-img {
     padding: 3%;
     margin-bottom: 3%;
 }
+
+    @media (max-width: 500px) {
+        .web-dev {
+            width: 100%;
+        }
+    }
+
 
 .ios-dev {
     display: flex;
@@ -442,6 +476,13 @@ img.middle-img {
     margin-bottom: 3%;
 }
 
+    @media (max-width: 500px) {
+        .ios-dev {
+            width: 100%;
+        }
+    }
+
+
 .android-dev {
     display: flex;
     background-color: lightgray;
@@ -451,20 +492,38 @@ img.middle-img {
     flex-direction: column;
     padding: 3%;
     margin-bottom: 3%;
-
 }
+
+    @media (max-width: 500px) {
+        .android-dev {
+            width: 100%;
+        }
+    }
+
 
 .serv-button {
     display: flex;
     justify-content: center;
-    
 }
+
 
 .serv-button button {
     padding: 1% 5%;
     border-radius: 5px;
     border: 1px solid;
 }
+
+    @media (max-width: 500px) {
+        .serv-button button{
+            margin-top: 10px;
+        }
+    }
+
+    @media (max-width: 800px) {
+        .serv-button button{
+            margin-top: 10px;
+        }
+    }
 
 /* Facts */
 
@@ -474,15 +533,56 @@ img.middle-img {
     justify-content: space-between;
 }
 
+    @media (max-width: 500px) {
+        .facts {
+            flex-direction: column;
+            width: 100%;
+        }
+    }
+
+    @media (max-width: 800px) {
+        .facts {
+            flex-direction: column;
+            width: 100%;
+        }
+    }
+
 .facts-section-left{
     display: flex;
     flex-direction: column;
     width: 46%;
 }
 
+    @media (max-width: 500px) {
+        .facts-section-left {
+            width: 100%;
+            margin-bottom: 25px;
+        }
+    }
+
+    @media (max-width: 800px) {
+        .facts-section-left {
+            width: 100%;
+            margin-bottom: 25px;
+        }
+    }
+
 .services-img {
     display: flex;
 }
+
+    @media (max-width: 500px) {
+        .services-img {
+            margin-bottom: 35px;
+        }
+    }
+
+    @media (max-width: 800px) {
+        .services-img {
+            justify-content: center;
+            margin-bottom: 35px;
+        }
+    }
 
 .this-list {
     padding-top: 5%;
