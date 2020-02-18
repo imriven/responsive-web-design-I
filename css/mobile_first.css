@@ -83,11 +83,17 @@ body {
     margin: 5% 10%;
 }
 
-    @media (max-width: 800px) {
+    @media (min-width: 320px) {
         body {
             margin: 10% 20%;
         }
     }
+
+    @media (min-width: 601px) {
+            body {
+                margin: 5% 15%;
+            }
+        }
 
 /* navigation */
 nav {
@@ -98,14 +104,14 @@ nav {
 }
     
 
-    @media (max-width: 800px) {
+    @media (min-width: 320px) {
         nav {
             display: flex;
             flex-wrap: wrap-reverse;
         }
     }
 
-    @media (max-width: 500px) {
+    @media (min-width: 601px) {
         nav {
             display: flex;
             flex-wrap: wrap-reverse;
@@ -117,13 +123,13 @@ nav {
 	padding-left: 10%;
 }
     
-    @media (max-width: 800px) {
+    @media (min-width: 601px) {
         .nav-logo {
             padding-bottom: 3%;
         }
     }
 
-    @media (max-width: 500px) {
+    @media (min-width: 320px) {
         .nav-logo {
             display: flex;
             align-items: center;
@@ -138,7 +144,7 @@ a {
     color: gray;    
 }
 
-    @media (max-width: 500px) {
+    @media (min-width: 320px) {
         a {
             border-bottom: 1px solid black;
             padding: 5% 10%;
@@ -163,7 +169,7 @@ h3 {
 	flex-grow: .7;
 }
 
-    @media (max-width: 500px) {
+    @media (min-width: 320px) {
         .links {
             display: flex;
             flex-direction: column;
@@ -199,13 +205,13 @@ footer {
 .circle-img {
     padding-left: 20%;    
 }
-    @media (max-width: 800px) {
+    @media (min-width: 601px) {
         .circle-img  {
             display: none;
         }
     }
 
-    @media (max-width: 500px) {
+    @media (min-width: 320px) {
         .circle-img  {
             display: none;
         }
@@ -217,7 +223,7 @@ footer {
     padding-top:12%;
 }
 
-    @media (max-width: 800px) {
+    @media (min-width: 601px) {
         #intro h1{
             font-size: 2.5em;
         }
@@ -233,7 +239,7 @@ footer {
     text-align: center;
 }
 
-    @media (max-width: 800px) {
+    @media (min-width: 601px) {
         #intro button {
             padding: 1% 7%;
             display: flex;
@@ -259,7 +265,7 @@ footer {
     border-top: 1px solid;
 }
 
-    @media (max-width: 500px) {
+    @media (min-width: 320px) {
         .middle-top {
             display: flex;
             flex-direction: column;
@@ -271,7 +277,7 @@ footer {
     width: 49%;
 }
 
-    @media (max-width: 500px) {
+    @media (min-width: 320px) {
         .features-para {
             display: flex;
             flex-direction: column;
@@ -284,7 +290,7 @@ footer {
     width: 49%;
 }
 
-    @media (max-width: 500px) {
+    @media (min-width: 320px) {
         .about-para {
             display: flex;
             flex-direction: column;
@@ -306,7 +312,7 @@ img.middle-img {
     margin-bottom: 2%;
 }
 
-    @media (max-width: 500px) {
+    @media (min-width: 320px) {
         .middle-bottom {
             display: flex;
             flex-direction: column;
@@ -318,7 +324,7 @@ img.middle-img {
     width: 30%;
 }
 
-    @media (max-width: 500px) {
+    @media (min-width: 320px) {
         .services-para {
             display: flex;
             flex-direction: column;
@@ -331,7 +337,7 @@ img.middle-img {
     width: 30%;
 }
 
-    @media (max-width: 500px) {
+    @media (min-width: 320px) {
         .product-para {
             display: flex;
             flex-direction: column;
@@ -344,7 +350,7 @@ img.middle-img {
     width: 30%;
 }
 
-    @media (max-width: 500px) {
+    @media (min-width: 320px) {
         .vision-para {
             display: flex;
             flex-direction: column;
@@ -373,12 +379,6 @@ img.middle-img {
     margin-bottom: 3%;
 }
 
-    @media (max-width: 800px) {
-        .services-header-img {
-            margin-top: 40px;
-        }
-    }
-
 #servics p {
     text-align: justify;
 }
@@ -405,12 +405,6 @@ img.middle-img {
     margin-bottom: 3%;
 }
 
-    @media (max-width: 500px) {
-        .digital-design {
-            width: 100%;
-        }
-    }
-
 .ux-ui {
     display: flex;
     background-color: lightgray;
@@ -422,13 +416,6 @@ img.middle-img {
     margin-bottom: 3%;
 }
 
-    @media (max-width: 500px) {
-        .ux-ui {
-            width: 100%;
-        }
-    }
-
-
 .digital-marketing {
     display: flex;
     background-color: lightgray;
@@ -439,14 +426,6 @@ img.middle-img {
     padding: 3%;
     margin-bottom: 3%;
 }
-
-    @media (max-width: 500px) {
-        .digital-marketing {
-            width: 100%;
-        }
-    }
-
-
 .web-dev {
     display: flex;
     background-color: lightgray;
@@ -457,13 +436,6 @@ img.middle-img {
     padding: 3%;
     margin-bottom: 3%;
 }
-
-    @media (max-width: 500px) {
-        .web-dev {
-            width: 100%;
-        }
-    }
-
 
 .ios-dev {
     display: flex;
@@ -476,13 +448,6 @@ img.middle-img {
     margin-bottom: 3%;
 }
 
-    @media (max-width: 500px) {
-        .ios-dev {
-            width: 100%;
-        }
-    }
-
-
 .android-dev {
     display: flex;
     background-color: lightgray;
@@ -492,38 +457,20 @@ img.middle-img {
     flex-direction: column;
     padding: 3%;
     margin-bottom: 3%;
+
 }
-
-    @media (max-width: 500px) {
-        .android-dev {
-            width: 100%;
-        }
-    }
-
 
 .serv-button {
     display: flex;
     justify-content: center;
+    
 }
-
 
 .serv-button button {
     padding: 1% 5%;
     border-radius: 5px;
     border: 1px solid;
 }
-
-    @media (max-width: 500px) {
-        .serv-button button{
-            margin-top: 10px;
-        }
-    }
-
-    @media (max-width: 800px) {
-        .serv-button button{
-            margin-top: 10px;
-        }
-    }
 
 /* Facts */
 
@@ -533,56 +480,15 @@ img.middle-img {
     justify-content: space-between;
 }
 
-    @media (max-width: 500px) {
-        .facts {
-            flex-direction: column;
-            width: 100%;
-        }
-    }
-
-    @media (max-width: 800px) {
-        .facts {
-            flex-direction: column;
-            width: 100%;
-        }
-    }
-
 .facts-section-left{
     display: flex;
     flex-direction: column;
     width: 46%;
 }
 
-    @media (max-width: 500px) {
-        .facts-section-left {
-            width: 100%;
-            margin-bottom: 25px;
-        }
-    }
-
-    @media (max-width: 800px) {
-        .facts-section-left {
-            width: 100%;
-            margin-bottom: 25px;
-        }
-    }
-
 .services-img {
     display: flex;
 }
-
-    @media (max-width: 500px) {
-        .services-img {
-            margin-bottom: 35px;
-        }
-    }
-
-    @media (max-width: 800px) {
-        .services-img {
-            justify-content: center;
-            margin-bottom: 35px;
-        }
-    }
 
 .this-list {
     padding-top: 5%;
